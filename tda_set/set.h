@@ -31,7 +31,7 @@ void set_destroy(set *set, void (*destructor)(void*));
 set* set_union(const set *set1, const set *set2);
 set* set_intersection(const set *set1, const set *set2);
 set* set_difference(const set *set1, const set *set2);
-void** set_to_array(const set *set);
+void** setToArray(const set *set);
 
 //--- Funciones para el analizador del texto ---
 //Con esta comparo las strings
@@ -41,15 +41,15 @@ int stringComparar(const void *a, const void *b);
 void stringDestroy(void *data);
 
 //Normalizamos el etxto (osea todo lo hacemos minusculas)
-char* normalizarTexto(const char *palabra);
+char* normalizarPalabra(const char *palabra);
 
 //Leemos el archivo y creamos el set de las palabras
 set* read_fileToSet(const char *filename);
 
 //Ordenamos el array de letras(strings)
-void sortStringsA(char **array, int size);
+void sortStringArr(char **array, int size);
 
 //Trato de encontrar la palaara mas larga que este en el set
-char* buscarPalaraLarga(const set *set);
+char* encontrarWordLargest(const set *set);
 
 #endif
