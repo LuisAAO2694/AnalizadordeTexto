@@ -93,8 +93,8 @@ int main()
 {
     //Aqui cargo los archivos
     //leeo el archivo y noramliza las palabras alamcenadas en el set <- todo con el read_fileToSet
-    set *setA = read_fileToSet("texto9.txt");
-    set *setB = read_fileToSet("texto10.txt");
+    set *setA = read_fileToSet("texto1.txt");
+    set *setB = read_fileToSet("texto2.txt");
     
     //Checo si, si se cargaron los archivos - debugg
     if (!setA || !setB) 

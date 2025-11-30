@@ -1,0 +1,1 @@
+La programación en C es un lenguaje de bajo nivel que permite un control preciso sobre los recursos del sistema. Los punteros y la gestión manual de memoria son características fundamentales que, aunque complejas, ofrecen un poder sin igual en el desarrollo de software eficiente.

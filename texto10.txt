@@ -1,0 +1,1 @@
+Python es un lenguaje de programación de alto nivel conocido por su sintaxis clara y legible. A diferencia de C, Python maneja automáticamente la memoria mediante un recolector de basura, lo que simplifica el desarrollo pero puede ser menos eficiente en ciertos escenarios.
